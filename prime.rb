@@ -1,4 +1,6 @@
 # Add  code here!
 def prime?(x)
-  for num in 
+  z = x - 1
+  for num in 2..z do 
+    x % num
 end
