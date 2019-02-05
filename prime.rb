@@ -17,7 +17,8 @@ def prime?(x)
     else
       puts true 
       return true 
-    end 
+    end
+  end
 end
 
 
