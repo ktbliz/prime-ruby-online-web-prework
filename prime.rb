@@ -8,4 +8,7 @@ def prime?(x)
   end
   if array.include?(0)
     return false 
+  else
+    return true 
+  end 
 end
