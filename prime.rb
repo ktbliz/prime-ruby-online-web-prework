@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(x)
-  z = x - 1
+  z = x.abs - 1
   array = []
   for num in 2..z do 
-    remainder = (x % num).ceil
+    remainder = (x.abs % num).ceil
     array.push(remainder)
   end
   if array.include?(0)
