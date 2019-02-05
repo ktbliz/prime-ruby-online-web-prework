@@ -4,6 +4,9 @@ def prime?(x)
   if x <= 1 
     puts false
     return false
+  elsif x == 2 
+    puts true 
+    return true 
   else 
     z = x - 1
     array = []
