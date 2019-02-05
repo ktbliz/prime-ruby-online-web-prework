@@ -12,3 +12,6 @@ def prime?(x)
     return true 
   end 
 end
+
+
+prime?(7)
