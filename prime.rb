@@ -1,10 +1,7 @@
 # Add  code here!
 def prime?(x)
   
-  if x <= 0 
-    puts false
-    return false
-  elsif x == l 
+  if x <= 1 
     puts false
     return false
   else 
