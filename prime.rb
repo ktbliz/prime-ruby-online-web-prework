@@ -6,5 +6,5 @@ def prime?(x)
     remainder = x % num
     array.push(remainder)
   end
-  
+  if array.include?(0)
 end
