@@ -16,5 +16,3 @@ def prime?(x)
 end
 
 
-prime?(7)
-prime?(12)
