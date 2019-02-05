@@ -1,6 +1,10 @@
 # Add  code here!
 def prime?(x)
   z = x - 1
+  array = []
   for num in 2..z do 
-    x % num
+    remainder = x % num
+    array.push(remainder)
+  end
+  
 end
