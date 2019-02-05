@@ -16,4 +16,3 @@ def prime?(x)
 end
 
 
-puts -7.abs
