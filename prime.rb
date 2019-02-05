@@ -7,8 +7,10 @@ def prime?(x)
     array.push(remainder)
   end
   if array.include?(0)
+    puts false
     return false 
   else
+    puts true 
     return true 
   end 
 end
